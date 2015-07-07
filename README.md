@@ -14,4 +14,4 @@ defaults write ~/Library/Preferences/org.m0k.transmission DoneScriptPath "/usr/l
 
 If you would like to make use of the Transmission Loader application, you will probably want to make it the default application for opening torrent files.
 
-You will also need to choose the script to run on download completion in Transmission. Go to Transmission --> Preferences, open the Transfers tab and under management
+Restart transmission for changes to take effect.
