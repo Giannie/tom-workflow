@@ -1,6 +1,6 @@
 # tom-workflow
 
-To install these scripts, open a terminal and run these commands exactly as they appear:
+To install these scripts, open a terminal and run these commands exactly as they appear (you may copy and paste):
 
 ```
 cd /tmp
