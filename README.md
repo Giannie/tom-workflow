@@ -13,3 +13,10 @@ cd tom-workflow-master
 If you would like to make use of the Transmission Loader application, you will probably want to make it the default application for opening torrent files.
 
 Restart transmission for changes to take effect.
+
+In order to reset the changes made to transmission settings, run the following in a terminal:
+
+```
+defaults write ~/Library/Preferences/org.m0k.transmission DoneScriptEnabled 0
+defaults write ~/Library/Preferences/org.m0k.transmission RPC 0
+```
