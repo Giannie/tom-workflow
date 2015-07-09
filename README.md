@@ -8,8 +8,6 @@ curl -L -O https://github.com/Giannie/tom-workflow/archive/master.zip
 unzip -o master.zip
 cd tom-workflow-master
 ./setup.sh
-defaults write ~/Library/Preferences/org.m0k.transmission DoneScriptEnabled 1
-defaults write ~/Library/Preferences/org.m0k.transmission DoneScriptPath "/usr/local/bin/transmission-done.sh"
 ```
 
 If you would like to make use of the Transmission Loader application, you will probably want to make it the default application for opening torrent files.
