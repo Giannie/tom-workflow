@@ -75,8 +75,6 @@
 				</array>
 				<key>OutputUUID</key>
 				<string>3531A391-322B-4B21-8146-5F17C3FC8534</string>
-				<key>StartAction</key>
-				<false/>
 				<key>UUID</key>
 				<string>915FB61A-A70E-454F-A8CE-D697D1660FAA</string>
 				<key>UnlocalizedApplications</key>
@@ -104,12 +102,10 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:496.000000</string>
+				<string>449.000000:316.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -165,7 +161,8 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>if [ $1 == "yes" ]; then
+					<string>open /Applications/Transmission.app
+if [ $1 == "yes" ]; then
 	arg="-w /Volumes/Main/Torrents"
 fi
 #	/usr/local/bin/transmission-remote 127.0.0.1:9091 -a "$f" -w /Users/tomika/Desktop
@@ -281,12 +278,10 @@ done</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:859.000000</string>
+				<string>449.000000:499.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -296,7 +291,7 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>469EA865-FBE5-47DD-9196-2AD5120DA0E5</key>
+		<key>887AC90B-8588-44EA-98E6-D198448EEAF5</key>
 		<dict>
 			<key>from</key>
 			<string>915FB61A-A70E-454F-A8CE-D697D1660FAA - 915FB61A-A70E-454F-A8CE-D697D1660FAA</string>

@@ -161,7 +161,8 @@ end run</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>if [ $1 == "yes" ]; then
+					<string>open /Applications/Transmission.app
+if [ $1 == "yes" ]; then
 	arg="-w /Volumes/Main/Torrents"
 fi
 #	/usr/local/bin/transmission-remote 192.168.0.12:9091 -a "$f" -w /Users/tomika/Desktop
@@ -290,7 +291,7 @@ done</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>A492A3C1-1A37-4F9B-B7A6-2734B4D246EF</key>
+		<key>82234691-5919-4880-AC9D-1F6752183F44</key>
 		<dict>
 			<key>from</key>
 			<string>915FB61A-A70E-454F-A8CE-D697D1660FAA - 915FB61A-A70E-454F-A8CE-D697D1660FAA</string>
